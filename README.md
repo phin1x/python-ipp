@@ -1,2 +1,4 @@
 # python-ipp
-IPP Library for Python without dependencies
+IPP Library for python without external dependencies
+
+This library was build and testet with python 3.4
