@@ -636,7 +636,7 @@ class IppClient:
     def _get_response_data(self):
         response = self._connection.getresponse()
         if response.getcode() == 200:
-            return response.readall()
+            return response.read()
         else:
             raise IppTransportException('Error: {0}'.format(response.getcode()))
 
